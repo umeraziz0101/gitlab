@@ -67,7 +67,7 @@ mkdir -p ~/gitlab/config ~/gitlab/logs ~/gitlab/data
 
 Execute the following command to download and start GitLab Community Edition (CE).
 
-Note: Since it is running on your laptop, we will bind it to localhost on port 7777 so it doesn't conflict with any existing web servers on your machine.
+Note: Since it is running on your laptop, we will bind it to localhost on port `7777` so it doesn't conflict with any existing web servers on your machine.
 
 ```
 sudo docker run --detach \
